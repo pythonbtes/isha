@@ -5,7 +5,7 @@ mkdir("isha")'''
 print(random.choice(range(1,6)))'''
 import re
 try:
-    r=re.search('[abc]','this is an absolute string')
+    r=re.search('abc','this is an absolute string')
     print(r.group())
 except:
     print(" previous string is not found")
